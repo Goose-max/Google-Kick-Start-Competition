@@ -29,12 +29,14 @@ The first line of input gives the number of test cases, T. T test cases follow. 
 For each test case, output one line containing Case #x: y, where x is the case number (starting from 1) and y is the status of the game board. It can be "Impossible", "Blue wins", "Red wins", or "Nobody wins" (excluding the quotes). Note that the judge is case-sensitive, so answers of "impossible", "blue wins", "red wins", and "nobody wins" will be judged incorrect.
 
 ## Limits
-Time limit: 30 seconds.
-Memory limit: 1 GB.
-1 ≤ __T__ ≤ 100.
-Test Set 1
+* Time limit: 30 seconds.
+* Memory limit: 1 GB.
+* 1 ≤ __T__ ≤ 100.
+
+## Test Set 1
 1 ≤ __N__ ≤ 10.
-Test Set 2
+
+## Test Set 2
 1 ≤ __N__ ≤ 100.
 
 ## Sample
