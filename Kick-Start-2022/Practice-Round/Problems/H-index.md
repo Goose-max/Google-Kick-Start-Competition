@@ -16,7 +16,7 @@ For each test case, output one line containing Case #x: y, where x is the test c
 | Time limit: 50 seconds.  
 | Memory limit: 1 GB.  
 | 1 ≤ **T** ≤ 100   
-| 1 ≤ **C**\ |i| ≤ 105  
+| 1 ≤ **C**i ≤ 105  
 
 ## Test Set 1
 1 ≤ **N** ≤ 1000
