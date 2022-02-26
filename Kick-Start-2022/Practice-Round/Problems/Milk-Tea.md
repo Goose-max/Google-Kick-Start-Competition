@@ -25,23 +25,29 @@ The first line of the input gives the number of test cases, **T**. **T** test ca
 For each test case, output one line containing ``Case #x: y``, where ``x`` is the test case number (starting from 1) and y is the minimum number of complaints that Shakti can get, per the rules described above.
 
 ## Limits
-| Time limit: 30 seconds.
-| Memory limit: 1 GB.
-| 1≤T≤100.
-| All of the forbidden types of milk tea are different.
+- Time limit: 30 seconds.
+- Memory limit: 1 GB.
+- 1≤T≤100.
+All of the forbidden types of milk tea are different.
 
 ## Test Set 1
-1 ≤ **N** ≤ 10.
-1 ≤ **M** ≤ `min`(10, 2\ :sup:`P` − 1).
-1 ≤ **P** ≤ 10.
+1 ≤ **N** ≤ 10
+
+1 ≤ **M** ≤ min(10, 2^P − 1)
+
+1 ≤ **P** ≤ 10
 
 ## Test Set 2
-1 ≤ **N** ≤ 100.
-1 ≤ **M** ≤ `min`(100, 2\ :sup:`P` − 1).
-1 ≤ **P** ≤ 100.
+
+1 ≤ **N** ≤ 100
+
+1 ≤ **M** ≤ min(100, 2^P − 1)
+
+1 ≤ **P** ≤ 100
 
 ## Sample
 ### Sample Input
+```
 2
 3 1 4
 1100
@@ -55,10 +61,13 @@ For each test case, output one line containing ``Case #x: y``, where ``x`` is th
 0111
 1011
 1101
+```
 
 ## Sample Output
+```
 Case #1: 4
 Case #2: 2
+```
 
 In Sample Case #1, there are 3 friends, and they want milk teas of types 1100, 1010, and 0000. If Shakti could choose type 1000, then each friend would complain once, for a total of 3 complaints. However, type 1000 is not available in the shop. So, given these constraints, an optimal solution is to choose type 1100. Then, his friends will complain 0, 2, and 2 times, respectively, for a total of 4 complaints.
 
