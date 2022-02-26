@@ -38,8 +38,7 @@ Test Set 2
 1 ≤ __N__ ≤ 100.
 
 ## Sample
-::
-
+```
 Sample Input    Sample Output
 
 7               Case #1: Nobody wins
@@ -69,3 +68,4 @@ BBBBBB
 ..R.R.
 ..RR..
 ......
+```
