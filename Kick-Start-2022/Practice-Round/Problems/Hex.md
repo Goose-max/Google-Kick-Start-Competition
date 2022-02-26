@@ -40,16 +40,15 @@ For each test case, output one line containing Case #x: y, where x is the case n
 1 ≤ __N__ ≤ 100.
 
 ## Sample
+### Sample Input
 ```
-Sample Input    Sample Output
-
-7               Case #1: Nobody wins
-1               Case #2: Blue wins
-.               Case #3: Red wins
-1               Case #4: Impossible
-B               Case #5: Blue wins
-1               Case #6: Impossible
-R               Case #7: Blue wins
+7               
+1               
+.               
+1               
+B               
+1               
+R               
 2
 BR
 BB
@@ -70,4 +69,15 @@ BBBBBB
 ..R.R.
 ..RR..
 ......
+```
+
+### Sample Output
+```
+Case #1: Nobody wins
+Case #2: Blue wins
+Case #3: Red wins
+Case #4: Impossible
+Case #5: Blue wins
+Case #6: Impossible
+Case #7: Blue wins
 ```
